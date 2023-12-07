@@ -1,3 +1,6 @@
 define dom = Character(_("[domname]"), color="#FF0000")
 define ti = Character (_("Atticus"), color="#FFD700")
 define n = Character(_("Narrator"), color="#87CEEB")
+define f = Character(_("Felix"), color="#39993A")
+define m = Character(_("Melinda"), color="#734f96")
+define h = Character(_("Hans"), color="#000000")

@@ -311,6 +311,8 @@ screen navigation():
 
         textbutton _("Album") action ShowMenu("Album")
 
+        textbutton _("Cipher Solver") action ShowMenu("")
+
         if _in_replay:
 
             textbutton _("End Replay") action EndReplay(confirm=True)
@@ -404,6 +406,11 @@ style main_menu_title:
 
 style main_menu_version:
     properties gui.text_properties("version")
+
+## Cipher Solver##
+
+
+
 
 
 ## Game Menu screen ############################################################
